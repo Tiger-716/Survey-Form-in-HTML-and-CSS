@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">This is a survey form</p>
+      <form id="survey-form">
+        <label id="name-label">Name: <input id="name" type="text" placeholder="Put a name" required /></label>
+        <label id="email-label">Email: <input id="email" type="email" placeholder="Put an email" required /></label>
+        <label id="number-label">Number: <input id="number" type="number" min="0" max="100" placeholder="Put a number" required /></label>
+        <select id="dropdown">
+          <option>One</option>
+          <option>Two</option>
+        </select>
+        <label>1st<input type="radio" name="date" value="1st" checked/></label>
+        <label>2nd<input type="radio" name="date" value="2nd" /></label>
+        <label>Jan<input type="checkbox" name="month" value="Jan" /></label>
+        <label>Feb<input type="checkbox" name="month" value="Feb" /></label>
+        <label>Mar<input type="checkbox" name="month" value="Mar" /></label>
+        <textarea></textarea>
+        <input id="submit" type="submit" value="Submit">
+      </form>
+    </main>
+  </body>
+</html>
